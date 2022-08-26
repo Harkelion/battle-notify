@@ -27,7 +27,7 @@ module.exports = [
     type: "Added",
     target: "MyBoss",
     abnormalities: [701700, 701701],
-    message: "Contagion {duration}",
+    message: "{icon}{alert} {duration}",
   },
   /*
 	// Contagion Expiring, notify 6 seconds remaining
@@ -52,7 +52,7 @@ module.exports = [
     type: "Added",
     target: "MyBoss",
     abnormalities: 60010,
-    message: "Hurricane {duration}",
+    message: "{alert}Hurricane {duration}",
   },
   /*
 	// Hurricane Expiring, notify at 6 seconds remaining
@@ -77,7 +77,7 @@ module.exports = [
     type: "Added",
     target: "Self",
     abnormalities: [200701, 200700],
-    message: "Adrenaline Rush {duration}",
+    message: "{icon}{alert} {duration}",
   },
   /*
 /*
@@ -102,58 +102,58 @@ module.exports = [
     type: "Added",
     target: "Self",
     abnormalities: [702001, 701606],
-    message: "Mysitc Shield up",
+    message: "{icon}{alert}Up {duration}",
   },
   // Mystic Shield (Thrall) Soon Expired
   {
     type: "Expiring",
     target: "Self",
     abnormalities: [702001, 701606],
-    message: "Mystic Shield Soon Expired {duration}",
+    message: "{icon}{notice}{red}Remaining {duration}",
     time_remaining: 5,
   },
   // Mystic Shield (Thrall) Expired
-  {
-    type: "Removed",
-    target: "Self",
-    abnormalities: [702001, 701606],
-    message: "{red} Mystic Shield Expired {duration}",
-  },
+  // {
+  //   type: "Removed",
+  //   target: "Self",
+  //   abnormalities: [702001, 701606],
+  //   message: "{red} Mystic Shield Expired {duration}",
+  // },
   // Priest Shield Added (Kaia)
   {
     type: "Added",
     target: "Self",
-    abnormalities: [800300, 800302, 800303, 800304],
-    message: "Priest Shield up.",
+    abnormalities: [800300, 800302, 800303, 800304, 806103],
+    message: "{icon}{alert}Up {duration}",
   },
   // Priest Shield (Kaia) Soon Expired
   {
     type: "Expiring",
     target: "Self",
-    abnormalities: [800300, 800302, 800303, 800304],
-    message: "Priest Shield Soon Expired {duration}",
+    abnormalities: [800300, 800302, 800303, 800304, 806103],
+    message: "{icon}{notice}{red}Remaining {duration}",
     time_remaining: 5,
   },
   //Priest Shield (Kaia) Expired
-  {
-    type: "Removed",
-    target: "Self",
-    abnormalities: [800300, 800302, 800303, 800304],
-    message: "{red} Priest Shield Expired {duration}",
-  },
+  // {
+  //   type: "Removed",
+  //   target: "Self",
+  //   abnormalities: [800300, 800302, 800303, 800304],
+  //   message: "{red} Priest Shield Expired {duration}",
+  // },
   // Mystic Wrath Added
   {
     type: "Added",
     target: "Self",
     abnormalities: [702004],
-    message: "{icon} {duration}",
+    message: "{icon}{alert} {duration}",
   },
   // Priest Edict Added
   {
     type: "Added",
     target: "Self",
     abnormalities: [805800],
-    message: "{icon} {duration}",
+    message: "{icon}{alert} {duration}",
   },
 
   //Pet buff
