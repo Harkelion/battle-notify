@@ -64,7 +64,7 @@
         "index.js": "71b55ef2c64b59a7fc95003ffb8f247b00d58859d4655a9791442bb8a6689c88",
         "lib/abnormal.js": "223d22ec30bb34f4c579970fbe945fa66cfcdd5caf1c4147b8376ce1f431a4f6",
         "lib/cooldown.js": "be1e8c8c45be32a743769b4d00b441c2a7973016c7bad699fd97c9c83caec14c",
-        "lib/entity.js": "651e554ef43be2c31bb46e9978fae2846a24e1213fb8b2c45a2ae79e680a2dc4",
+        "lib/entity.js": "97f1ae04d5e6c8ad3c569dfa469661fef7e9d5d36a526bc39f03882f3aefe655",
         "lib/notify.js": "639e9935002551bc3d147bbd7d0ed17a9e15b5be4ae97fdfce1b7f358a61e72e",
         "lib/party.js": "079f738b7f66342b1401194be2063e826398386a798ce8f372c3ea6497ccf886",
         "module.config.json": "c0a16dfca2dc00eb2f4c5670a98fcc163fd4f85c34b04fe825e6c3e79de88ca1",
@@ -84,6 +84,7 @@
         "S_DECREASE_COOLTIME_SKILL": 3,
         "S_DESPAWN_NPC": 3,
         "S_DUNGEON_EVENT_MESSAGE": 2,
+        "S_EXIT": 3,
         "S_LOAD_TOPO": "event",
         "S_LOGIN": ["event",13,14],
         "S_LOGOUT_PARTY_MEMBER": 1,
@@ -94,6 +95,7 @@
         "S_SPAWN_USER": 16,
         "S_START_COOLTIME_ITEM": 1,
         "S_START_COOLTIME_SKILL": 3,
-        "S_USER_STATUS": 3
+        "S_USER_STATUS": 3,
+        "S_WHISPER": 3
     }
 }
