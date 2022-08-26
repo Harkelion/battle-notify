@@ -15,7 +15,7 @@
         },
         "config/common.js": {
             "overwrite": false,
-            "hash": "7cf9c8608d184d8bc20c9ced13e4d889fafb46eb1c56e39b3dc8e23e05c8176d"
+            "hash": "92ec6023761eb11e846e13dfe797468aecbaf67c3e366076c7819f3c78b43d3a"
         },
         "config/common_styling.js": {
             "overwrite": false,
@@ -55,17 +55,17 @@
         },
         "config/valkyrie.js": {
             "overwrite": false,
-            "hash": "7dcd2f7116807cb4e033776fdb8bd9ff74632a12f7d886de3f161a15ccc6d8f1"
+            "hash": "e31d88c1c7493c701b7d04f07ab481fa3ca896c035a77092aa00e6a9e50b9471"
         },
         "config/warrior.js": {
             "overwrite": false,
             "hash": "37e90aed3d5be988226d07135cad47f1ba57857316f8deac30221fc608698bdc"
         },
         "index.js": "71b55ef2c64b59a7fc95003ffb8f247b00d58859d4655a9791442bb8a6689c88",
-        "lib/abnormal.js": "2819441825e14f9fb22b18d216e2b79e9af8b8d4dd046c7933d189977deb6e91",
+        "lib/abnormal.js": "223d22ec30bb34f4c579970fbe945fa66cfcdd5caf1c4147b8376ce1f431a4f6",
         "lib/cooldown.js": "be1e8c8c45be32a743769b4d00b441c2a7973016c7bad699fd97c9c83caec14c",
         "lib/entity.js": "651e554ef43be2c31bb46e9978fae2846a24e1213fb8b2c45a2ae79e680a2dc4",
-        "lib/notify.js": "8c2cb7d7d69f52a2f4c500ff7a2d33aacc264c296ac591508336692fee314438",
+        "lib/notify.js": "639e9935002551bc3d147bbd7d0ed17a9e15b5be4ae97fdfce1b7f358a61e72e",
         "lib/party.js": "079f738b7f66342b1401194be2063e826398386a798ce8f372c3ea6497ccf886",
         "module.config.json": "c0a16dfca2dc00eb2f4c5670a98fcc163fd4f85c34b04fe825e6c3e79de88ca1",
         "module.json": "fba6aa5960e80029a481962c5f03082ccdf1cdc76046e727006e88e0892796fa",
@@ -74,7 +74,6 @@
         "previews/screenshot.png": "a9df41e538aa1eec005e286905f6578abd0cd2320e6d864a704bb491fc019d98"
     },
     "defs": {
-        "S_ABNORMALITY_BEGIN": 4,
         "S_ABNORMALITY_END": 1,
         "S_ABNORMALITY_REFRESH": 2,
         "S_BOSS_GAGE_INFO": 3,

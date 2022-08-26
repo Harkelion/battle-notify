@@ -52,7 +52,7 @@ module.exports = [
     type: "Added",
     target: "MyBoss",
     abnormalities: 60010,
-    message: "{alert}Hurricane {duration}",
+    message: "Hurricane {duration}",
   },
   /*
 	// Hurricane Expiring, notify at 6 seconds remaining
@@ -77,7 +77,7 @@ module.exports = [
     type: "Added",
     target: "Self",
     abnormalities: [200701, 200700],
-    message: "{icon}{alert} {duration}",
+    message: "{icon} {duration}",
   },
   /*
 /*
@@ -102,14 +102,14 @@ module.exports = [
     type: "Added",
     target: "Self",
     abnormalities: [702001, 701606],
-    message: "{icon}{alert}Up {duration}",
+    message: "{icon} {duration}",
   },
   // Mystic Shield (Thrall) Soon Expired
   {
     type: "Expiring",
     target: "Self",
     abnormalities: [702001, 701606],
-    message: "{icon}{notice}{red}Remaining {duration}",
+    message: "{icon}{alert} {duration}",
     time_remaining: 5,
   },
   // Mystic Shield (Thrall) Expired
@@ -123,15 +123,15 @@ module.exports = [
   {
     type: "Added",
     target: "Self",
-    abnormalities: [800300, 800302, 800303, 800304, 806103],
-    message: "{icon}{alert}Up {duration}",
+    abnormalities: [800300, 800302, 800303, 800304],
+    message: "{icon} {duration}",
   },
   // Priest Shield (Kaia) Soon Expired
   {
     type: "Expiring",
     target: "Self",
-    abnormalities: [800300, 800302, 800303, 800304, 806103],
-    message: "{icon}{notice}{red}Remaining {duration}",
+    abnormalities: [800300, 800302, 800303, 800304],
+    message: "{icon}{alert} {duration}",
     time_remaining: 5,
   },
   //Priest Shield (Kaia) Expired
@@ -146,14 +146,14 @@ module.exports = [
     type: "Added",
     target: "Self",
     abnormalities: [702004],
-    message: "{icon}{alert} {duration}",
+    message: "{icon} {duration}",
   },
   // Priest Edict Added
   {
     type: "Added",
     target: "Self",
     abnormalities: [805800],
-    message: "{icon}{alert} {duration}",
+    message: "{icon} {duration}",
   },
 
   //Pet buff
